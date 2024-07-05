@@ -1,0 +1,1258 @@
+2024-06-25 18:11:08 INFO  Hook:22 - Launching the browser
+2024-06-25 18:11:08 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-25 18:11:08 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:11:08 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:11:09 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:11:09 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:11:10 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:11:10 INFO  FlightBookingSteps:22 - I travel New Delhi to Mumbai on current date
+2024-06-25 18:11:10 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-25 18:11:10 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-25 18:11:11 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:11:11 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:11:11 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-25 18:11:11 INFO  DeloitteDriver:22 - Enter text: New Delhi
+2024-06-25 18:11:11 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:11:11 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:11:11 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:11:13 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:11:13 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:11:13 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-25 18:11:14 INFO  DeloitteDriver:22 - Enter text: Mumbai
+2024-06-25 18:11:14 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:11:14 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:11:14 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:11:16 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:11:16 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:11:16 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-25 18:11:16 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:11:18 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-25 18:11:18 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-25 18:11:18 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-25 18:11:18 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-25 18:11:48 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:11:48 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:11:48 INFO  Hook:22 - Launching the browser
+2024-06-25 18:11:48 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:11:48 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:11:49 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:11:49 INFO  FlightBookingSteps:22 - I travel Mumbai to Hyderabad on current date
+2024-06-25 18:11:49 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-25 18:11:49 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-25 18:11:50 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:11:50 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:11:50 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-25 18:11:50 INFO  DeloitteDriver:22 - Enter text: Mumbai
+2024-06-25 18:11:50 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:11:50 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:11:50 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:11:52 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:11:52 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:11:52 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-25 18:11:52 INFO  DeloitteDriver:22 - Enter text: Hyderabad
+2024-06-25 18:11:52 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:11:52 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:11:52 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:11:54 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:11:54 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:11:55 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-25 18:11:55 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:11:57 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-25 18:11:57 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-25 18:11:57 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-25 18:11:57 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-25 18:12:27 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:12:27 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:25:04 INFO  Hook:22 - Launching the browser
+2024-06-25 18:25:04 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-25 18:25:04 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:25:04 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:25:05 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:25:05 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:25:06 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:25:06 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:25:06 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:25:06 INFO  Hook:22 - Launching the browser
+2024-06-25 18:25:07 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:25:07 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:25:07 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:25:07 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:25:08 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:25:34 INFO  Hook:22 - Launching the browser
+2024-06-25 18:25:34 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-25 18:25:34 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:25:34 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:25:35 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:25:35 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:25:36 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:25:36 INFO  FlightBookingSteps:22 - I search with Sheet1 and 0 data with current date
+2024-06-25 18:25:36 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row0
+2024-06-25 18:25:36 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:25:36 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:25:36 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:25:36 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-25 18:25:36 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-25 18:25:37 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:25:37 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:25:37 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-25 18:25:37 INFO  DeloitteDriver:22 - Enter text: New Delhi
+2024-06-25 18:25:37 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:25:37 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:25:37 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:25:39 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:25:39 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:25:39 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-25 18:25:39 INFO  DeloitteDriver:22 - Enter text: Mumbai
+2024-06-25 18:25:39 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:25:39 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:25:39 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:25:41 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:25:41 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:25:41 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-25 18:25:41 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:25:43 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-25 18:25:43 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-25 18:25:44 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-25 18:25:44 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-25 18:26:14 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:26:14 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:26:14 INFO  Hook:22 - Launching the browser
+2024-06-25 18:26:15 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:26:15 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:26:15 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:26:15 INFO  FlightBookingSteps:22 - I search with Sheet1 and 1 data with current date
+2024-06-25 18:26:15 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row1
+2024-06-25 18:26:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:26:15 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:26:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:26:15 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-25 18:26:15 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-25 18:26:16 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:26:16 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:26:16 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-25 18:26:16 INFO  DeloitteDriver:22 - Enter text: Bengaluru
+2024-06-25 18:26:16 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:26:16 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:26:16 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:26:18 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:26:18 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:26:18 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-25 18:26:19 INFO  DeloitteDriver:22 - Enter text: Chennai
+2024-06-25 18:26:19 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:26:19 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:26:19 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:26:21 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:26:21 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:26:21 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-25 18:26:21 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:26:23 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-25 18:26:23 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-25 18:26:23 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-25 18:26:23 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-25 18:26:54 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:26:54 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:27:15 INFO  Hook:22 - Launching the browser
+2024-06-25 18:27:15 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-25 18:27:15 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:27:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:27:17 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:27:17 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:27:17 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:27:17 INFO  FlightBookingSteps:22 - I search with Sheet1 and 0 data with current date
+2024-06-25 18:27:17 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row0
+2024-06-25 18:27:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:27:17 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:27:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:27:18 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Enter text: New Delhi
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:27:18 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:27:20 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:27:20 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:27:20 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-25 18:27:21 INFO  DeloitteDriver:22 - Enter text: Mumbai
+2024-06-25 18:27:21 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:27:21 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:27:21 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:27:21 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:27:23 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:27:23 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:27:23 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-25 18:27:23 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:27:25 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-25 18:27:25 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-25 18:27:25 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-25 18:27:25 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-25 18:27:56 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:27:56 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:27:56 INFO  Hook:22 - Launching the browser
+2024-06-25 18:27:56 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:27:56 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:27:57 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:27:57 INFO  FlightBookingSteps:22 - I search with Sheet1 and 1 data with current date
+2024-06-25 18:27:57 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row1
+2024-06-25 18:27:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:27:57 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:27:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:27:57 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-25 18:27:57 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-25 18:27:58 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:27:58 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:27:58 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-25 18:27:58 INFO  DeloitteDriver:22 - Enter text: Bengaluru
+2024-06-25 18:27:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:27:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:27:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:27:58 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:28:00 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:28:00 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:28:00 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-25 18:28:01 INFO  DeloitteDriver:22 - Enter text: Chennai
+2024-06-25 18:28:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:28:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:28:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:28:01 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:28:03 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:28:03 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:28:03 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-25 18:28:03 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:28:05 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-25 18:28:05 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-25 18:28:05 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-25 18:28:05 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-25 18:28:35 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:28:35 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:29:15 INFO  Hook:22 - Launching the browser
+2024-06-25 18:29:15 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-25 18:29:15 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:29:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:29:16 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:29:16 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:29:17 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:29:17 INFO  FlightBookingSteps:22 - I search with Sheet1 and 0 data with current date
+2024-06-25 18:29:17 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row0
+2024-06-25 18:29:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:29:17 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:29:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:29:17 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-25 18:29:17 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-25 18:29:18 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:29:18 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:29:18 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-25 18:29:18 INFO  DeloitteDriver:22 - Enter text: New Delhi
+2024-06-25 18:29:18 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:29:18 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:29:18 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:29:18 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:29:20 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:29:20 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:29:20 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-25 18:29:21 INFO  DeloitteDriver:22 - Enter text: Mumbai
+2024-06-25 18:29:21 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:29:21 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:29:21 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:29:21 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:29:23 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:29:23 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:29:23 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-25 18:29:23 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:29:25 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-25 18:29:25 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-25 18:29:25 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-25 18:29:25 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-25 18:29:55 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:29:56 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-25 18:29:56 INFO  Hook:22 - Launching the browser
+2024-06-25 18:29:56 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-25 18:29:56 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-25 18:29:57 INFO  DeloitteDriver:22 - Maximize window
+2024-06-25 18:29:57 INFO  FlightBookingSteps:22 - I search with Sheet1 and 1 data with current date
+2024-06-25 18:29:57 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row1
+2024-06-25 18:29:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:29:57 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-25 18:29:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-25 18:29:57 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-25 18:29:57 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-25 18:29:58 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:29:58 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-25 18:29:58 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-25 18:29:58 INFO  DeloitteDriver:22 - Enter text: Hyderabad
+2024-06-25 18:29:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:29:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:29:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-25 18:29:58 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:30:00 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:30:00 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:30:00 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-25 18:30:01 INFO  DeloitteDriver:22 - Enter text: Chennai
+2024-06-25 18:30:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:30:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:30:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-25 18:30:01 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:30:03 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-25 18:30:03 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-25 18:30:03 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-25 18:30:03 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-25 18:30:05 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-25 18:30:05 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-25 18:30:05 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-25 18:30:05 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-25 18:30:35 INFO  Hook:22 - Closing the browser.
+2024-06-25 18:30:36 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 18:54:57 INFO  Hook:22 - Launching the browser
+2024-06-29 18:54:57 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 18:54:57 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 18:54:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:55:12 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-29 18:55:12 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-29 18:55:13 INFO  DeloitteDriver:22 - Maximize window
+2024-06-29 18:55:13 INFO  FlightBookingSteps:22 - I search with Sheet1 and 0 data with current date
+2024-06-29 18:55:13 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row0
+2024-06-29 18:55:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:55:13 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 18:55:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:55:13 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-29 18:55:13 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-29 18:55:14 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-29 18:55:14 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-29 18:55:14 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-29 18:55:14 INFO  DeloitteDriver:22 - Enter text: New Delhi
+2024-06-29 18:55:14 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:55:14 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:55:14 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:55:14 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:55:16 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-29 18:55:16 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-29 18:55:16 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-29 18:55:16 INFO  DeloitteDriver:22 - Enter text: Mumbai
+2024-06-29 18:55:16 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:55:16 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:55:16 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:55:17 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:55:19 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-29 18:55:19 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-29 18:55:19 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-29 18:55:19 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:55:21 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-29 18:55:21 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-29 18:55:21 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-29 18:55:21 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-29 18:55:51 INFO  Hook:22 - Closing the browser.
+2024-06-29 18:55:51 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 18:55:51 INFO  Hook:22 - Launching the browser
+2024-06-29 18:55:51 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-29 18:55:51 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-29 18:55:57 INFO  DeloitteDriver:22 - Maximize window
+2024-06-29 18:55:57 INFO  FlightBookingSteps:22 - I search with Sheet1 and 1 data with current date
+2024-06-29 18:55:57 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row1
+2024-06-29 18:55:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:55:57 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 18:55:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:55:57 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-29 18:55:57 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-29 18:55:58 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-29 18:55:58 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-29 18:55:58 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-29 18:55:58 INFO  DeloitteDriver:22 - Enter text: Hyderabad
+2024-06-29 18:55:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:55:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:55:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:55:58 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:56:00 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-29 18:56:00 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-29 18:56:00 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-29 18:56:01 INFO  DeloitteDriver:22 - Enter text: Chennai
+2024-06-29 18:56:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:56:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:56:01 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:56:01 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:56:03 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-29 18:56:03 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-29 18:56:03 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-29 18:56:03 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:56:05 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-29 18:56:05 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-29 18:56:05 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-29 18:56:05 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-29 18:56:35 INFO  Hook:22 - Closing the browser.
+2024-06-29 18:56:36 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 18:57:48 INFO  Hook:22 - Launching the browser
+2024-06-29 18:57:48 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 18:57:48 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 18:57:48 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:57:50 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-29 18:57:50 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-29 18:57:53 INFO  DeloitteDriver:22 - Maximize window
+2024-06-29 18:57:53 INFO  FlightBookingSteps:22 - I search with Sheet1 and 0 data with current date
+2024-06-29 18:57:53 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row0
+2024-06-29 18:57:53 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:57:53 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 18:57:53 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:57:53 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-29 18:57:53 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Enter text: New Delhi
+2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:57:57 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-29 18:57:57 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Enter text: Mumbai
+2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:58:00 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-29 18:58:00 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-29 18:58:00 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-29 18:58:00 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:58:02 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-29 18:58:02 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-29 18:58:02 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-29 18:58:02 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-29 18:58:32 INFO  Hook:22 - Closing the browser.
+2024-06-29 18:58:33 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 18:58:33 INFO  Hook:22 - Launching the browser
+2024-06-29 18:58:33 INFO  FlightBookingSteps:22 - I navigate to home page
+2024-06-29 18:58:33 INFO  DeloitteDriver:22 - Navigate to Home Page
+2024-06-29 18:58:36 INFO  DeloitteDriver:22 - Maximize window
+2024-06-29 18:58:36 INFO  FlightBookingSteps:22 - I search with Sheet1 and 1 data with current date
+2024-06-29 18:58:36 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row1
+2024-06-29 18:58:36 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:58:36 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 18:58:36 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 18:58:36 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
+2024-06-29 18:58:36 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid='originId']//parent::div and time: 30
+2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid='originId']//parent::div
+2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='From']/following-sibling::input and time: 30
+2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Enter text: Hyderabad
+2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='From']/following-sibling::input
+2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:58:40 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-29 18:58:40 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='From']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-29 18:58:40 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()='To']/following-sibling::input and time: 30
+2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Enter text: Chennai
+2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()='To']/following-sibling::input
+2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:58:43 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li and get index element 0
+2024-06-29 18:58:43 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()='To']/ancestor::div[contains(@class, 'items')]//div[contains(@class, 'Autocompleter')]//li
+2024-06-29 18:58:43 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()='Search'] and time: 30
+2024-06-29 18:58:43 INFO  DeloitteDriver:22 - Wait for 2 second(s)
+2024-06-29 18:58:45 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()='Search']
+2024-06-29 18:58:45 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()='Search']
+2024-06-29 18:58:45 INFO  FlightSearchResultsPage:22 - Wait for Page Load
+2024-06-29 18:58:45 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=' Flights Available'] and time: 30
+2024-06-29 18:59:15 INFO  Hook:22 - Closing the browser.
+2024-06-29 18:59:15 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 19:04:45 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:04:45 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:04:45 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:04:56 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:04:56 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:04:56 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:05:06 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:05:06 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:05:06 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:05:30 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:05:30 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:05:30 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:06:20 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:06:20 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:06:20 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:06:33 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:06:33 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:06:33 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:06:52 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:06:52 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:06:52 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:08:13 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:08:13 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:08:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:08:54 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:08:54 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:08:54 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:10:01 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:10:01 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:10:01 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:12:43 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:12:43 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:12:43 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:13:43 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:13:43 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:13:43 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:14:24 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:14:24 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:14:24 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:14:51 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:14:51 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:14:51 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:17:00 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:17:00 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:17:00 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:18:09 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:18:09 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:18:09 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 19:18:17 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 19:18:17 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 19:18:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 20:59:46 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 20:59:46 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 20:59:46 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 20:59:55 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 20:59:55 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 20:59:55 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:00:04 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:00:04 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:00:04 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:01:57 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:01:57 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:01:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:03:56 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:03:56 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:03:56 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:06:07 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:06:07 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:06:07 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:06:47 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:06:47 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:06:47 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:15:20 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:15:20 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:15:20 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:23:56 INFO  Hook:22 - Launching the browser
+2024-06-29 21:23:56 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:23:56 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:23:56 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:23:57 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 1
+2024-06-29 21:23:57 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row1
+2024-06-29 21:23:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:23:57 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:23:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:23:57 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:23:57 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:26:34 INFO  Hook:22 - Launching the browser
+2024-06-29 21:26:34 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:26:34 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:26:34 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:26:35 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 1
+2024-06-29 21:26:35 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row1
+2024-06-29 21:26:35 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:26:35 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:26:35 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:26:35 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:26:35 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:26:57 INFO  Hook:22 - Launching the browser
+2024-06-29 21:26:57 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:26:57 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:26:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:26:58 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:26:58 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:26:58 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:26:58 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:26:58 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:26:58 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:26:58 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:27:37 INFO  Hook:22 - Launching the browser
+2024-06-29 21:27:37 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:27:37 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:27:37 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:27:38 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:27:38 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:27:38 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:27:38 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:27:38 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:27:38 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:27:38 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:27:38 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:28:31 INFO  Hook:22 - Launching the browser
+2024-06-29 21:28:31 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:28:31 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:28:31 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:28:32 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:28:32 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:28:32 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:28:32 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:28:32 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:28:32 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:28:32 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:28:32 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:29:18 INFO  Hook:22 - Launching the browser
+2024-06-29 21:29:18 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:29:18 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:29:18 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:29:19 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:29:19 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:29:19 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:29:19 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:29:19 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:29:19 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:29:19 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:29:19 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:29:40 INFO  Hook:22 - Launching the browser
+2024-06-29 21:29:40 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:29:40 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:29:40 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:29:41 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:29:41 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:29:41 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:29:41 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:29:41 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:29:41 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:29:41 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:29:41 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:30:38 INFO  Hook:22 - Launching the browser
+2024-06-29 21:30:38 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:30:38 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:30:38 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:30:40 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:30:40 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:30:40 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:30:40 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:30:40 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:30:40 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:30:40 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:30:40 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:31:10 INFO  Hook:22 - Launching the browser
+2024-06-29 21:31:10 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:31:10 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:31:10 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:31:11 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:31:11 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:31:11 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:31:11 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:31:11 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:31:11 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:31:11 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:31:11 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:31:17 INFO  Hook:22 - Launching the browser
+2024-06-29 21:31:17 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:31:17 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:31:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:31:19 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:31:19 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:31:19 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:31:19 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:31:19 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:31:19 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:31:19 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:31:19 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:32:03 INFO  Hook:22 - Launching the browser
+2024-06-29 21:32:03 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:32:03 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:32:03 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:32:04 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:32:04 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:32:04 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:32:04 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:32:04 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:32:04 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:32:04 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:32:04 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:32:53 INFO  Hook:22 - Launching the browser
+2024-06-29 21:32:54 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:32:54 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:32:54 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:32:55 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:32:55 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:32:55 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:32:55 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:32:55 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:32:55 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:32:55 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:32:55 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:34:51 INFO  Hook:22 - Launching the browser
+2024-06-29 21:34:51 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:34:51 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:34:51 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:34:52 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:34:52 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:34:52 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:34:52 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:34:52 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:34:52 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:34:52 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:34:52 INFO  DeloitteDriver:22 - Quit the browser
+2024-06-29 21:35:41 INFO  Hook:22 - Launching the browser
+2024-06-29 21:35:41 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
+2024-06-29 21:35:41 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
+2024-06-29 21:35:41 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
+2024-06-29 21:35:42 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-06-29 21:35:42 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2 and row0
+2024-06-29 21:35:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:35:42 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet2
+2024-06-29 21:35:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet2)
+2024-06-29 21:35:42 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-06-29 21:35:42 INFO  Hook:22 - Closing the browser.
+2024-06-29 21:35:42 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 13:45:24 INFO  Hook:22 - Launching the browser
+2024-07-02 13:45:24 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 13:45:24 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 13:45:24 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 13:45:30 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 13:45:30 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 13:45:30 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:45:31 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 13:45:31 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:45:31 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 13:45:31 INFO  Hook:22 - Closing the browser.
+2024-07-02 13:45:31 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 13:46:01 INFO  Hook:22 - Launching the browser
+2024-07-02 13:46:01 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 13:46:01 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 13:46:01 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 13:46:03 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 13:46:03 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 13:46:03 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:46:03 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 13:46:03 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:46:03 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 13:46:04 INFO  Hook:22 - Closing the browser.
+2024-07-02 13:46:04 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 13:46:40 INFO  Hook:22 - Launching the browser
+2024-07-02 13:46:40 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 13:46:40 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 13:46:40 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 13:46:42 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 13:46:42 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 13:46:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:46:43 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 13:46:43 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:46:43 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 13:46:43 INFO  Hook:22 - Closing the browser.
+2024-07-02 13:46:43 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 13:47:12 INFO  Hook:22 - Launching the browser
+2024-07-02 13:47:12 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 13:47:12 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 13:47:12 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 13:47:14 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 13:47:14 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 13:47:14 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:47:14 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 13:47:14 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:47:14 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 13:47:15 INFO  Hook:22 - Closing the browser.
+2024-07-02 13:47:15 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 13:48:10 INFO  Hook:22 - Launching the browser
+2024-07-02 13:48:10 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 13:48:10 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 13:48:10 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 13:48:12 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 13:48:12 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 13:48:12 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:48:12 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 13:48:12 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:48:12 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 13:48:12 INFO  Hook:22 - Closing the browser.
+2024-07-02 13:48:12 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 13:50:00 INFO  Hook:22 - Launching the browser
+2024-07-02 13:50:00 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 13:50:00 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 13:50:00 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 13:50:02 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 13:50:02 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 13:50:02 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:50:02 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 13:50:02 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:50:02 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 13:50:03 INFO  Hook:22 - Closing the browser.
+2024-07-02 13:50:03 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 13:50:24 INFO  Hook:22 - Launching the browser
+2024-07-02 13:50:24 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 13:50:24 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 13:50:24 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 13:50:26 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 13:50:26 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 13:50:26 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:50:26 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 13:50:26 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 13:50:27 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 13:50:27 INFO  Hook:22 - Closing the browser.
+2024-07-02 13:50:27 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 14:26:21 INFO  Hook:22 - Launching the browser
+2024-07-02 14:26:21 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 14:26:21 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 14:26:21 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 14:26:24 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 14:26:24 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 14:26:24 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 14:26:24 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 14:26:24 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 14:26:25 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 14:26:25 INFO  Hook:22 - Closing the browser.
+2024-07-02 14:26:25 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 14:38:25 INFO  Hook:22 - Launching the browser
+2024-07-02 14:38:25 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 14:38:25 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 14:38:25 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 14:38:28 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 14:38:28 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 14:38:28 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 14:38:28 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 14:38:28 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 14:38:28 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 14:38:28 INFO  Hook:22 - Closing the browser.
+2024-07-02 14:38:29 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 14:45:05 INFO  Hook:22 - Launching the browser
+2024-07-02 14:45:05 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 14:45:05 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 14:45:05 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 14:45:09 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 14:45:09 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 14:45:09 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 14:45:09 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 14:45:09 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 14:45:09 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 14:45:09 INFO  Hook:22 - Closing the browser.
+2024-07-02 14:45:09 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 17:08:20 INFO  Hook:22 - Launching the browser
+2024-07-02 17:08:20 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 17:08:20 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 17:08:20 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 17:08:24 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 17:08:24 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 17:08:24 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:08:24 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 17:08:24 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:08:24 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 17:08:25 INFO  Hook:22 - Closing the browser.
+2024-07-02 17:08:25 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 17:22:42 INFO  Hook:22 - Launching the browser
+2024-07-02 17:22:42 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 17:22:42 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 17:22:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 17:22:45 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 17:22:45 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 17:22:45 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:22:45 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 17:22:45 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:22:45 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 17:22:45 INFO  Hook:22 - Closing the browser.
+2024-07-02 17:22:45 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 17:27:27 INFO  Hook:22 - Launching the browser
+2024-07-02 17:27:27 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 17:27:27 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 17:27:27 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 17:27:30 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 17:27:30 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 17:27:30 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:27:30 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 17:27:30 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:27:30 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 17:27:30 ERROR PDFReader:37 - Exception occurred while reading the file.
+java.io.IOException: Error: End-of-File, expected line
+	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1107) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdfparser.COSParser.parseHeader(COSParser.java:2650) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdfparser.COSParser.parsePDFHeader(COSParser.java:2633) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdfparser.PDFParser.parse(PDFParser.java:219) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1107) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1090) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1049) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:997) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.deloitte.utils.PDFReader.readPDFFile(PDFReader.java:13) ~[classes/:?]
+	at org.deloitte.stepdefs.PDFTestSteps.validateText(PDFTestSteps.java:34) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226) [cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2024-07-02 17:27:30 INFO  Hook:22 - Closing the browser.
+2024-07-02 17:27:30 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 17:35:14 INFO  Hook:22 - Launching the browser
+2024-07-02 17:35:14 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 17:35:14 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 17:35:14 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 17:35:17 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 17:35:17 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 17:35:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:35:17 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 17:35:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:35:17 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 17:35:18 ERROR PDFReader:37 - Exception occurred while reading the file.
+java.io.IOException: Error: End-of-File, expected line
+	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1107) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdfparser.COSParser.parseHeader(COSParser.java:2650) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdfparser.COSParser.parsePDFHeader(COSParser.java:2633) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdfparser.PDFParser.parse(PDFParser.java:219) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1107) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1090) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1049) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:997) ~[pdfbox-2.0.26.jar:2.0.26]
+	at org.deloitte.utils.PDFReader.readPDFFile(PDFReader.java:13) ~[classes/:?]
+	at org.deloitte.stepdefs.PDFTestSteps.validateText(PDFTestSteps.java:34) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226) [cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2024-07-02 17:35:18 INFO  Hook:22 - Closing the browser.
+2024-07-02 17:35:18 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 17:44:53 INFO  Hook:22 - Launching the browser
+2024-07-02 17:44:53 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 17:44:53 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 17:44:53 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 17:44:56 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 17:44:56 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 17:44:56 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:44:56 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 17:44:56 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:44:56 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 17:44:57 INFO  Hook:22 - Closing the browser.
+2024-07-02 17:44:57 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-02 17:47:57 INFO  Hook:22 - Launching the browser
+2024-07-02 17:47:57 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-02 17:47:57 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-02 17:47:57 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-02 17:47:59 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-02 17:47:59 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-02 17:47:59 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:47:59 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-02 17:47:59 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-02 17:47:59 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-02 17:48:00 INFO  Hook:22 - Closing the browser.
+2024-07-02 17:48:00 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:44:42 INFO  Hook:22 - Launching the browser
+2024-07-03 06:44:42 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:44:42 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:44:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:44:48 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:44:48 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:44:48 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:44:49 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:44:49 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:44:49 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:44:49 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:44:49 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:47:09 INFO  Hook:22 - Launching the browser
+2024-07-03 06:47:09 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:47:09 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:47:09 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:47:14 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:47:14 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:47:14 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:47:14 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:47:14 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:47:14 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:47:15 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:47:15 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:48:38 INFO  Hook:22 - Launching the browser
+2024-07-03 06:48:38 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:48:38 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:48:38 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:48:42 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:48:42 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:48:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:48:42 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:48:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:48:42 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:48:42 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:48:42 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:49:12 INFO  Hook:22 - Launching the browser
+2024-07-03 06:49:12 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:49:12 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:49:12 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:49:15 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:49:15 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:49:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:49:15 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:49:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:49:15 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:49:15 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:49:15 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:50:36 INFO  Hook:22 - Launching the browser
+2024-07-03 06:50:36 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:50:36 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:50:36 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:50:39 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:50:39 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:50:39 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:50:39 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:50:39 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:50:39 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:50:40 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:50:40 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:51:00 INFO  Hook:22 - Launching the browser
+2024-07-03 06:51:00 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:51:00 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:51:00 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:51:02 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:51:02 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:51:02 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:51:02 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:51:02 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:51:02 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:51:02 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:51:02 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:51:30 INFO  Hook:22 - Launching the browser
+2024-07-03 06:51:30 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:51:30 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:51:30 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:51:33 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:51:34 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:51:34 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:51:34 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:51:34 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:51:34 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:51:34 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:51:34 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:52:51 INFO  Hook:22 - Launching the browser
+2024-07-03 06:52:51 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:52:51 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:52:51 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:52:54 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:52:54 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:52:54 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:52:54 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:52:54 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:52:54 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:52:54 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:52:54 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:54:15 INFO  Hook:22 - Launching the browser
+2024-07-03 06:54:15 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:54:15 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:54:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:54:17 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:54:17 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:54:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:54:17 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:54:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:54:17 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:54:18 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:54:18 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:55:37 INFO  Hook:22 - Launching the browser
+2024-07-03 06:55:37 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:55:37 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:55:37 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:55:39 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 06:55:39 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 06:55:39 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:55:39 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 06:55:39 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 06:55:39 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 06:55:40 INFO  Hook:22 - Closing the browser.
+2024-07-03 06:55:40 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 06:58:03 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:58:03 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:58:03 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:58:38 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:58:38 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:58:38 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 06:59:09 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 06:59:09 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 06:59:09 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:07:37 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:07:37 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:07:37 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:08:09 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:08:09 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:08:09 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:14:13 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:14:13 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:14:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:14:26 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:14:26 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:14:26 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:16:41 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:16:41 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:16:41 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:17:43 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:17:43 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:17:43 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:19:20 INFO  Hook:22 - Launching the browser
+2024-07-03 07:19:20 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:19:20 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:19:20 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:19:23 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 07:19:23 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 07:19:23 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:19:23 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 07:19:23 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:19:23 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 07:19:24 INFO  Hook:22 - Closing the browser.
+2024-07-03 07:19:25 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 07:20:26 INFO  Hook:22 - Launching the browser
+2024-07-03 07:20:26 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:20:26 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:20:26 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:20:29 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 07:20:29 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 07:20:29 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:20:29 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 07:20:29 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:20:29 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 07:20:29 INFO  Hook:22 - Closing the browser.
+2024-07-03 07:20:29 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 07:21:10 INFO  Hook:22 - Launching the browser
+2024-07-03 07:21:10 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:21:10 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:21:10 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:21:13 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 07:21:13 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 07:21:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:21:13 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 07:21:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:21:13 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 07:21:13 INFO  Hook:22 - Closing the browser.
+2024-07-03 07:21:13 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 07:23:12 INFO  Hook:22 - Launching the browser
+2024-07-03 07:23:12 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:23:12 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:23:12 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:23:15 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 07:23:15 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 07:23:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:23:15 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 07:23:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:23:15 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 07:23:16 INFO  Hook:22 - Closing the browser.
+2024-07-03 07:23:16 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 07:23:43 INFO  Hook:22 - Launching the browser
+2024-07-03 07:23:43 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:23:43 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:23:43 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:23:46 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 07:23:46 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 07:23:46 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:23:46 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 07:23:46 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:23:46 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 07:23:46 INFO  Hook:22 - Closing the browser.
+2024-07-03 07:23:47 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-03 07:23:59 INFO  Hook:22 - Launching the browser
+2024-07-03 07:23:59 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-03 07:23:59 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-03 07:23:59 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-03 07:24:02 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-03 07:24:02 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-03 07:24:02 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:24:02 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-03 07:24:02 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-03 07:24:02 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-03 07:24:02 INFO  Hook:22 - Closing the browser.
+2024-07-03 07:24:02 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-04 06:46:48 INFO  Hook:22 - Launching the browser
+2024-07-04 06:46:48 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-04 06:46:48 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-04 06:46:48 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-04 06:46:52 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-04 06:46:52 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-04 06:46:52 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-04 06:46:52 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-04 06:46:52 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-04 06:46:52 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-04 06:46:52 INFO  Hook:22 - Closing the browser.
+2024-07-04 06:46:52 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-04 06:49:15 INFO  Hook:22 - Launching the browser
+2024-07-04 06:49:15 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-04 06:49:15 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-04 06:49:15 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-04 06:49:18 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-04 06:49:18 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-04 06:49:18 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-04 06:49:18 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-04 06:49:18 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-04 06:49:18 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-04 06:49:19 INFO  Hook:22 - Closing the browser.
+2024-07-04 06:49:19 INFO  DeloitteDriver:22 - Quit the browser
