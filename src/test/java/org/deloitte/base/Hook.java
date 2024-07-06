@@ -5,6 +5,8 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.deloitte.utils.DeloitteDriver;
 
+import java.net.MalformedURLException;
+
 public class Hook extends BaseTest {
     private BaseTest test;
 
@@ -13,9 +15,9 @@ public class Hook extends BaseTest {
     }
 
     @Before
-    public void setUp(Scenario scenario) {
+    public void setUp(Scenario scenario) throws MalformedURLException {
         logger.info("Launching the browser");
-        this.driver = DeloitteDriver.getSeleniumDriver();
+        this.driver = DeloitteDriver.getJenkins();
         this.test.driver = this.driver;
     }
 

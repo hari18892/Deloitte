@@ -2,15 +2,20 @@ package org.deloitte.utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
+import org.apache.pdfbox.pdmodel.font.PDType3CharProc;
 import org.deloitte.config.TestConfig;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.List;
 
@@ -33,6 +38,17 @@ public class DeloitteDriver {
         driverThreadLocal.set(driver);
     }
 
+    public static DeloitteDriver getJenkins() throws MalformedURLException {
+        DeloitteDriver seleniumDriver = new DeloitteDriver();
+        String nodeUrl = "http://localhost:4444/wd/hub";
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setBrowserName("chrome");
+        cap.setPlatform(Platform.WIN11);
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new RemoteWebDriver(new URL(nodeUrl),cap);
+        seleniumDriver.setDriver(driver);
+        return seleniumDriver;
+    }
     public static DeloitteDriver getSeleniumDriver() {
         DeloitteDriver seleniumDriver = new DeloitteDriver();
         if (seleniumDriver.config.getBrowser().equalsIgnoreCase("chrome")) {
