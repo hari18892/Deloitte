@@ -40,7 +40,7 @@ public class DeloitteDriver {
 
     public static DeloitteDriver getJenkins() throws MalformedURLException {
         DeloitteDriver seleniumDriver = new DeloitteDriver();
-        String nodeUrl = "http://192.168.0.114:4444";
+        String nodeUrl = "http://localhost:4444/wd/hub";
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setBrowserName("MicrosoftEdge");
         cap.setPlatform(Platform.WIN11);
