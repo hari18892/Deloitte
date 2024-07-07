@@ -1319,3 +1319,15 @@ java.io.IOException: Error: End-of-File, expected line
 2024-07-06 19:30:05 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
 2024-07-06 19:30:05 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
 2024-07-06 19:30:08 INFO  Hook:22 - Closing the browser.
+2024-07-06 19:44:25 INFO  Hook:22 - Launching the browser
+2024-07-06 19:44:25 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-06 19:44:25 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-06 19:44:25 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-06 19:44:31 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-06 19:44:31 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-06 19:44:31 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-06 19:44:31 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-06 19:44:31 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-06 19:44:31 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-06 19:44:32 INFO  Hook:22 - Closing the browser.
+2024-07-06 19:44:32 INFO  DeloitteDriver:22 - Quit the browser

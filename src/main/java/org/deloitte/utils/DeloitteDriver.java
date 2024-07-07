@@ -42,7 +42,6 @@ public class DeloitteDriver {
         DeloitteDriver seleniumDriver = new DeloitteDriver();
         String nodeUrl = "http://localhost:4444/wd/hub";
         DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setBrowserName("chrome");
         cap.setPlatform(Platform.WIN11);
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new RemoteWebDriver(new URL(nodeUrl),cap);
