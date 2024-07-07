@@ -1331,3 +1331,141 @@ java.io.IOException: Error: End-of-File, expected line
 2024-07-06 19:44:31 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
 2024-07-06 19:44:32 INFO  Hook:22 - Closing the browser.
 2024-07-06 19:44:32 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:30:58 INFO  Hook:22 - Launching the browser
+2024-07-07 11:30:58 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:30:58 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:30:58 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:31:01 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:31:38 INFO  Hook:22 - Launching the browser
+2024-07-07 11:31:38 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:31:38 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:31:38 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:31:39 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:44:04 INFO  Hook:22 - Launching the browser
+2024-07-07 11:44:04 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:44:04 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:44:04 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:44:06 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:48:03 INFO  Hook:22 - Launching the browser
+2024-07-07 11:48:03 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:48:03 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:48:03 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:48:05 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:50:18 INFO  Hook:22 - Launching the browser
+2024-07-07 11:50:18 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:50:18 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:50:18 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:50:21 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 11:50:21 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 11:50:21 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:50:21 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 11:50:21 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:50:21 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 11:50:22 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:50:22 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:50:40 INFO  Hook:22 - Launching the browser
+2024-07-07 11:50:40 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:50:40 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:50:40 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:50:42 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 11:50:42 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 11:50:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:50:42 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 11:50:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:50:42 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 11:50:42 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:50:43 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:51:11 INFO  Hook:22 - Launching the browser
+2024-07-07 11:51:11 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:51:11 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:51:11 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:51:13 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 11:51:13 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 11:51:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:51:13 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 11:51:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:51:13 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 11:51:14 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:51:14 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:52:13 INFO  Hook:22 - Launching the browser
+2024-07-07 11:52:13 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:52:13 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:52:13 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:52:17 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 11:52:17 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 11:52:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:52:17 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 11:52:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:52:17 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 11:52:17 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:52:17 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:54:58 INFO  Hook:22 - Launching the browser
+2024-07-07 11:54:58 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:54:58 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:54:58 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:55:02 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 11:55:02 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 11:55:02 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:55:02 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 11:55:02 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:55:02 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 11:55:02 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:55:02 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:56:18 INFO  Hook:22 - Launching the browser
+2024-07-07 11:56:18 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:56:18 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:56:18 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:57:04 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 11:57:04 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 11:57:04 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:57:05 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 11:57:05 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:57:05 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 11:57:05 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:57:06 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:57:27 INFO  Hook:22 - Launching the browser
+2024-07-07 11:57:27 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:57:27 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:57:27 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:57:30 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 11:57:30 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 11:57:30 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:57:30 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 11:57:30 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:57:30 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 11:57:30 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:57:30 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:57:59 INFO  Hook:22 - Launching the browser
+2024-07-07 11:57:59 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:57:59 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:57:59 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:58:01 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 11:58:01 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 11:58:01 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:58:01 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 11:58:01 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 11:58:01 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 11:58:01 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:58:02 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 11:58:27 INFO  Hook:22 - Launching the browser
+2024-07-07 11:58:27 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:58:27 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:58:27 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:58:28 INFO  Hook:22 - Closing the browser.
+2024-07-07 11:58:53 INFO  Hook:22 - Launching the browser
+2024-07-07 11:58:53 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 11:58:53 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 11:58:53 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 11:58:55 INFO  Hook:22 - Closing the browser.
+2024-07-07 12:00:40 INFO  Hook:22 - Launching the browser
+2024-07-07 12:00:40 INFO  PropertiesUtil:16 - Reading the properties file located at D:\Intellij_IDEA\automation_task-main\src\main\resources\config.properties
+2024-07-07 12:00:40 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 12:00:40 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 12:00:42 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 12:00:42 INFO  ExcelFileUtil:52 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 12:00:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 12:00:42 INFO  ExcelFileUtil:33 - Reading the data from D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 12:00:42 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(D:\Intellij_IDEA\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 12:00:42 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 12:00:43 INFO  Hook:22 - Closing the browser.
+2024-07-07 12:00:43 INFO  DeloitteDriver:22 - Quit the browser
